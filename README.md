@@ -1,66 +1,128 @@
-# Plantillas Ágiles
+# 🚀 Agile Portafolio
 
-Repositorio con **plantillas y ejemplos prácticos de metodologías ágiles** aplicadas en proyectos TI, incluyendo Retrospectivas, OKRs, Kanban y Management 3.0.
+Portafolio profesional que demuestra cómo aplico metodologías ágiles en contextos reales para mejorar el desempeño de equipos, optimizar el flujo de trabajo y acompañar transformaciones organizacionales.
 
----
-
-## Estructura del repositorio
-
-- **Retrospectivas/**  
-  Plantillas para realizar retrospectivas ágiles.  
-  Ejemplo destacado: la técnica **Barquito**, donde se identifican:  
-  - El equipo (Barco)  
-  - Objetivos (Isla del Tesoro)  
-  - Impulsores (Viento/Velas)  
-  - Obstáculos (Ancla)  
-  - Riesgos (Rocas/Tiburones)  
-  - Aspectos positivos (Sol, con reconocimiento del alto rendimiento de los perfiles TI)  
-  - Métricas de análisis al final del sprint: tareas sin realizar por falta de tiempo, bugs, time to market, velocity.  
-  Plantillas disponibles:  
-  - `retrospectiva_sprint.md`  
-  - `retrospectiva_4L.md`  
-  - `retrospectiva_start_stop_continue.md`
-
-- **OKRs/**  
-  Plantillas para definir **Objetivos y Resultados Clave** (Objectives & Key Results).  
-  - Permiten alinear objetivos individuales y de equipo con los de la empresa.  
-  - Ejemplo práctico: expansión internacional de una plataforma ERP para gestión y movimiento de carga, con mejoras e innovación, donde las metas eran compartidas y medibles.  
-  Plantilla disponible:  
-  - `plantilla_okrs.md`
-
-- **Kanban/**  
-  Plantillas y ejemplos de tableros Kanban.  
-  - Items priorizados según urgencia, preferencias del usuario, complejidad técnica y valor para el negocio.  
-  - Columnas sugeridas: Por hacer, Desarrollo, Pruebas Unitarias, Pruebas Integradas, QA, Pruebas de Usuario, Hecho.  
-  - Cada tarea incluye: descripción, responsable, prioridad, fecha de inicio y entrega, Storypoint.  
-  - Seguimiento diario con **Daily y burndown charts** para analizar progreso.  
-  Plantillas disponibles:  
-  - `tablero_kanban.md`  
-  - `politica_wip.md`
-
-- **Management_3_0/**  
-  Filosofía de liderazgo ágil que se enfoca en **personas, colaboración y equipos autoorganizados**.  
-  Principios aplicados:  
-  1. **Energizar personas:** aprendizaje continuo, rotación de roles, formación en plataformas como Udemy/Platzi.  
-  2. **Empoderar equipos:** autonomía en decisiones técnicas, reuniones Coffee Time, toma de decisiones colectiva (ej. cambio de idioma de proyecto al inglés).  
-  3. **Alinear restricciones:** objetivos claros y límites que guían sin restringir creatividad; ejemplo OKR para expansión internacional de plataforma ERP.  
-  4. **Desarrollar competencias:** fomentar aprendizaje práctico mediante retroalimentación en retrospectivas y aplicación de nuevas habilidades.  
-  5. **Crecer la estructura:** implementación de SAFe y Scrum por área, roles y ceremonias definidos para escalar prácticas ágiles sin perder flexibilidad.  
-  6. **Mejorar todo:** innovación y optimización continua, migración de Jira a Azure DevOps, implementación de métricas de rendimiento, flujo, calidad y valor, compromiso y salud del equipo, fomentando cultura de mejora continua.  
-  Archivos disponibles:  
-  - `README.md` (explicación completa)  
-  - `moving_motivators.md`  
-  - `delegation_poker.md`  
-  - `kudo_cards.md`
+Este repositorio reúne prácticas, métricas y casos aplicados que reflejan experiencia en facilitación de equipos, gestión del cambio y toma de decisiones basada en evidencia.
 
 ---
 
-## Uso del repositorio
+## 🧩 Casos Destacados
 
-1. Explora la carpeta correspondiente según la técnica que quieras aplicar.  
-2. Abre el archivo `.md` y sigue la guía o plantilla.  
-3. Adapta los ejemplos a tu proyecto o equipo.  
+- **Implementación de Scrum + SAFe** en contextos organizacionales complejos  
+- **Optimización de flujo con Kanban** utilizando métricas como Lead Time, Cycle Time, Throughput y WIP  
+- **Aplicación de retrospectivas** para detectar problemas sistémicos y definir mejoras concretas  
+- **Uso de Management 3.0** para fortalecer motivación, autonomía y colaboración del equipo  
 
 ---
 
-**Nota:** Este repositorio está pensado como guía práctica para **líderes, Scrum Masters y equipos ágiles** en proyectos de tecnología de la información.
+## 🧠 Enfoque Profesional
+
+Este portafolio está orientado a la aplicación práctica de metodologías ágiles, con foco en:
+
+- Mejora continua de equipos mediante retrospectivas estructuradas  
+- Optimización del flujo de trabajo con métricas ágiles  
+- Implementación de Scrum, Kanban y SAFe en contextos reales  
+- Gestión del cambio organizacional y cultural  
+- Toma de decisiones basada en métricas y resultados  
+
+---
+
+## 📂 Qué encontrarás aquí
+
+- **Kanban** → Diseño y optimización del flujo de trabajo  
+- **OKRs** → Alineación entre objetivos estratégicos y entrega de valor  
+- **Retrospectivas** → Técnicas para aprendizaje continuo y mejora del equipo  
+- **Management 3.0** → Prácticas de liderazgo, motivación y empoderamiento  
+- **Transformaciones Ágiles** → Aplicación en contextos organizacionales complejos  
+
+---
+
+## 🔄 Retrospectivas Aplicadas
+
+Aplicación de dinámicas de retrospectiva para identificar fricciones del equipo, detectar patrones sistémicos y traducir hallazgos en acciones concretas de mejora.
+
+- **Sailboat (Barco)** → Identificación de riesgos, bloqueos y objetivos  
+- **Start / Stop / Continue** → Ajuste de prácticas y hábitos del equipo  
+- **4L (Liked, Learned, Lacked, Longed For)** → Aprendizaje y mejora continua  
+
+Estas técnicas permiten no solo mejorar el desempeño, sino también fortalecer la comunicación y el compromiso del equipo.
+
+---
+
+### 🚀 Portafolio de Transformación Ágil
+
+### Implementación de Scrum y SAFe en contextos organizacionales complejos
+
+**Desafío:**  
+Organizaciones con baja adopción ágil, equipos desalineados y resistencia al cambio.
+
+**Intervención:**  
+- Implementación progresiva de Scrum en equipos  
+- Escalamiento con enfoque SAFe  
+- Acompañamiento en gestión del cambio cultural  
+- Coordinación entre múltiples áreas y stakeholders  
+
+**Resultados / Impacto:**  
+- Mayor alineación entre equipos  
+- Mejora en visibilidad del trabajo  
+- Adopción gradual y sostenible de prácticas ágiles  
+
+---
+
+## 📊 Métricas de Gestión Utilizadas
+
+- Lead Time  
+- Cycle Time  
+- Throughput  
+- Work In Progress (WIP)  
+- Velocity  
+- Burndown Chart  
+- Control Chart  
+
+Estas métricas permiten evaluar desempeño, detectar cuellos de botella y mejorar la eficiencia del flujo de trabajo.
+
+---
+
+## 🛠️ Herramientas y Prácticas
+
+- Jira / Azure DevOps  
+- Tableros Kanban  
+- OKRs  
+- Retrospectivas estructuradas  
+- Management 3.0  
+- Métricas de flujo y desempeño  
+
+---
+
+## ✅ Capacidades Demostradas
+
+- Facilitación de dinámicas de mejora continua  
+- Uso de métricas para la toma de decisiones  
+- Optimización de flujo y desempeño de equipos  
+- Liderazgo en entornos complejos y de cambio  
+- Resolución de problemas de coordinación y comunicación  
+
+---
+
+## 🎯 Enfoque
+
+Las metodologías ágiles no se implementan de forma estándar, se adaptan al contexto organizacional.
+
+Este portafolio refleja una aproximación práctica, donde cada herramienta y técnica se utiliza en función del problema a resolver y del valor que se busca generar.
+
+---
+
+## 🚀 Valor del Portafolio
+
+Este repositorio no es teórico.
+
+Refleja experiencia real aplicando prácticas ágiles para mejorar equipos, procesos y resultados de negocio.
+
+---
+
+## 🔗 Conexión con Perfil Profesional
+
+Este repositorio forma parte de mi portafolio profesional en GitHub, donde integro liderazgo, metodologías ágiles y transformación tecnológica.
+
+🔗 Ver perfil completo:  
+https://github.com/Chocolatesgirl/Perfil_Profesional
