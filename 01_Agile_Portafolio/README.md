@@ -125,4 +125,4 @@ Refleja experiencia real aplicando prácticas ágiles para mejorar equipos, proc
 Este repositorio forma parte de mi portafolio profesional en GitHub, donde integro liderazgo, metodologías ágiles y transformación tecnológica.
 
 🔗 Ver perfil completo:  
-https://github.com/Chocolatesgirl/Perfil_Profesional
+https://github.com/Chocolatesgirl/Perfil_Profesional  
