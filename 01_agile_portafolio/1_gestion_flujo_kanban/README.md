@@ -132,6 +132,24 @@ La implementación de este enfoque permite generar mejoras concretas en el siste
 
 ---
 
+## 🎯 Conexión con ejecución estratégica (OKRs)
+
+El sistema Kanban no opera de forma aislada, sino como mecanismo de ejecución de iniciativas definidas a nivel estratégico.
+
+Los OKRs establecen los objetivos y resultados esperados, mientras que Kanban permite gestionar el flujo de trabajo necesario para alcanzarlos.
+
+Esta integración permite:
+
+- Alinear el trabajo operativo con objetivos de negocio
+- Priorizar iniciativas según impacto en resultados clave
+- Visualizar el progreso hacia objetivos estratégicos
+- Detectar cuellos de botella que afectan el logro de resultados
+- Tomar decisiones basadas en métricas de flujo
+
+👉 De esta forma, Kanban no solo optimiza la operación, sino que actúa como habilitador de la ejecución estratégica.
+
+---
+
 ## 💼 Valor profesional
 
 Este módulo refleja competencias aplicables a roles como:
