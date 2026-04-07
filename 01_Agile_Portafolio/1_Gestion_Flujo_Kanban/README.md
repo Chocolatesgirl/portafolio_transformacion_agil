@@ -1,326 +1,160 @@
-## 🚀 Gestión de Flujo con Kanban en Entornos Reales
+# 📊 Gestión de Flujo con Kanban
 
-Este módulo demuestra cómo implementar Kanban como sistema de gestión de flujo en equipos de desarrollo de software, enfocado en la optimización de entrega continua, reducción de cuellos de botella y toma de decisiones basada en métricas.
+## 🎯 Propósito
 
-Se basa en prácticas aplicadas en contextos reales de transformación ágil.
+Este módulo presenta la aplicación de **Kanban como sistema de gestión de flujo** en un entorno de desarrollo de software, con foco en la mejora de capacidad de entrega, reducción de cuellos de botella y toma de decisiones basada en métricas.
 
-El enfoque está orientado a:
+El enfoque está orientado a demostrar cómo un sistema Kanban bien diseñado permite evolucionar desde la gestión de tareas hacia la gestión del trabajo como sistema.
 
-* Visualizar el trabajo end-to-end
-* Optimizar el flujo de entrega
-* Reducir tiempos de desarrollo
-* Tomar decisiones basadas en métricas
+---
+
+## 🧩 Contexto del caso
+
+El módulo se construye sobre un caso práctico aplicado al desarrollo de una:
+
+👉 **Aplicación de aprendizaje de inglés para niños de 3 a 8 años**
+
+A partir de este escenario, se modela un flujo de trabajo completo que permite visualizar demanda, controlar WIP, estabilizar la operación y medir el desempeño del sistema.
+
+---
+
+## 🚀 Objetivos del módulo
+
+* Visualizar el flujo de trabajo end-to-end
+* Diseñar un sistema Kanban alineado al proceso real
+* Controlar la carga de trabajo mediante políticas WIP
+* Identificar cuellos de botella y bloqueos
+* Medir Lead Time, Cycle Time, Throughput y WIP
+* Implementar mejoras operativas basadas en datos
+
+---
+
+## 📂 Estructura del módulo
+
+### 01_Diseño_Flujo
+
+Define la estructura base del sistema.
+
+**Contenido principal:**
+
+* `diseño_tablero_kanban.md`
+
+**Aporta:**
+
+* definición del flujo
+* propósito de cada etapa
+* criterios de entrada y salida
+* alineación con Jira / Azure DevOps
+
+---
+
+### 02_Operacion_Flujo
+
+Muestra cómo funciona el sistema en la práctica y cómo se controla.
+
+**Contenido principal:**
+
+* `1_simulacion_flujo_trabajo_jira.md`
+* `2_politicas_wip.md`
+
+**Aporta:**
+
+* operación real del flujo
+* detección de saturación y bloqueos
+* aplicación de límites WIP
+* decisiones para estabilizar el sistema
+
+---
+
+### 03_Metricas_y_Mejora
+
+Convierte la operación en evidencia mediante análisis visual y métricas.
+
+**Contenido principal:**
+
+* `metricas_flujo.md`
+* `cumulative_flow_explicado.md`
+* `cumulative_flow_diagram.png`
+* `comparación_flujo_antes_vs_después.png`
+* `lead_time_distribution.png`
+
+**Aporta:**
+
+* análisis de desempeño del sistema
+* interpretación de Lead Time y CFD
+* validación del impacto de las mejoras
+* conexión entre datos y decisiones
+
+---
+
+### 04_Casos_Practicos
+
+Integra el sistema completo en una narrativa aplicada.
+
+**Contenido principal:**
+
+* `caso_practico_kanban_app_ingles.md`
+
+**Aporta:**
+
+* contexto del caso
+* aplicación integrada del enfoque Kanban
+* problemas reales del flujo
+* decisiones implementadas y resultados obtenidos
+
+---
+
+## 🔗 Lógica del módulo
+
+La estructura sigue una secuencia intencional:
+
+**Diseño → Operación → Control → Medición → Mejora**
+
+Esto permite mostrar que Kanban no se limita a visualizar tareas, sino que funciona como un sistema de gestión que:
+
+* expone problemas
+* regula capacidad
+* permite intervenir con criterio
+* mejora la entrega de valor
 
 ---
 
 ## 📈 Impacto esperado
 
-La implementación de Kanban como sistema de gestión de flujo permite generar impacto directo en el desempeño del equipo y en los resultados del producto:
+La implementación de este enfoque permite generar mejoras concretas en el sistema de trabajo:
 
-- Reducción del Lead Time
-- Disminución del Cycle Time
-- Mejora en la predictibilidad de entrega
-- Identificación temprana de cuellos de botella
-- Incremento del throughput del equipo
-- Optimización del uso de capacidad
-
-👉 Este enfoque permite evolucionar desde la gestión de tareas hacia la optimización del sistema de trabajo.
+* reducción del Lead Time
+* mayor estabilidad del Cycle Time
+* disminución de multitarea
+* control del WIP
+* mejor predictibilidad de entrega
+* identificación temprana de cuellos de botella
 
 ---
 
-## 🧩 Caso aplicado
+## 💼 Valor profesional
 
-Se desarrolla un caso práctico basado en una:
+Este módulo refleja competencias aplicables a roles como:
 
-👉 **App de aprendizaje de inglés para niños de 3 a 8 años**
+* Delivery Manager
+* Senior Project Manager
+* Scrum Master orientado a delivery
+* Agile Lead en entornos tecnológicos
+* Líder de mejora de flujo y capacidad
 
-Objetivos del producto:
-
-* Mejorar la experiencia de aprendizaje
-* Incrementar el engagement mediante interacciones
-* Aumentar la retención de usuarios
-
----
-
-## 🧱 Flujo de Trabajo
-
-## 🔄 Flujo de trabajo
-
-El flujo se define con políticas explícitas en cada etapa:
-
-| Etapa | Descripción | Política de entrada | Política de salida |
-|------|------------|--------------------|-------------------|
-| Ready | Trabajo refinado | Historia definida + criterios de aceptación | Pull a desarrollo |
-| Development | Construcción | Capacidad disponible | Código completo |
-| Code Review | Validación técnica | PR creado | Aprobación |
-| Testing | Validación funcional | Build estable | Tests OK |
-| QA | Validación final | Feature completa | Aprobación QA |
-| Release | Despliegue | QA aprobado | Deploy |
-
----
-
-## ⚙️ Componentes del sistema Kanban
-
-Este módulo se compone de cuatro dimensiones principales:
-
----
-
-### 🧩 1. Diseño del flujo
-
-📄 `diseno_tablero_kanban.md`
-
-* Definición de columnas del tablero
-* Estructura del flujo de trabajo
-* Ejemplos de historias y tareas reales
-* Adaptación a herramientas como Jira / Azure DevOps
-
----
-
-### 🔄 2. Operación del flujo
-
-📄 `simulacion_flujo_trabajo_jira.md`
-📄 `politicas_wip.md`
-
-* Simulación de un tablero en operación real
-* Gestión de tareas en distintas etapas
-* Aplicación de límites WIP
-* Identificación y resolución de bloqueos
-
-👉 Se aplica el principio:
-**“Stop starting, start finishing”**
-
----
-
-### 📊 3. Métricas y mejora
-
-- `metricas_flujo.md`
-- `cumulative_flow_explicado.md`
-
-* Medición de Lead Time, Cycle Time y Throughput
-* Análisis del flujo mediante métricas
-* Identificación de cuellos de botella
-* Uso de CFD (Cumulative Flow Diagram)
-
----
-
-## 📊 Cumulative Flow Diagram (CFD)
-
-El Cumulative Flow Diagram permite visualizar el comportamiento del flujo de trabajo a lo largo del tiempo, mostrando la distribución de tareas en cada etapa del proceso.
-
-<p align="center">
-  <img src="03_Metricas_y_Mejora/cumulative_flow_diagram.png" width="700">
-</p>
-
----
-
----
-
-## ⏱️ Análisis de Lead Time
-
-El Lead Time mide el tiempo total desde que una tarea es solicitada hasta que es entregada.
-
-### 🔍 Distribución del Lead Time
-
-<p align="center">
-  <img src="03_Metricas_y_Mejora/lead_time_distribution.png" width="600">
-</p>
-
----
-
-### 📊 Interpretación
-
-- Alta dispersión → flujo inestable  
-- Valores extremos → cuellos de botella o bloqueos  
-- Distribución concentrada → sistema predecible  
-
----
-
-### 🚨 Hallazgos en el caso
-
-- Variabilidad alta en tiempos de entrega  
-- Tareas bloqueadas en Testing incrementan el Lead Time  
-- Falta de control de WIP genera acumulación  
-
----
-
-### 🛠️ Acciones tomadas
-
-- Implementación de límites WIP  
-- Priorización de tareas en progreso  
-- Reducción de multitasking  
-
----
-
-### 📈 Resultado
-
-- Disminución de la variabilidad  
-- Mayor predictibilidad  
-- Reducción del Lead Time promedio
-
----
-
-## 📉 Mejora del flujo (Before vs After)
-
-Se comparó el comportamiento del sistema antes y después de implementar prácticas Kanban.
-
-<p align="center">
-  <img src="03_Metricas_y_Mejora/flujo_before_after.png" width="700">
-</p>
-
----
-
-### 🔍 Comparación
-
-| Métrica | Antes | Después |
-|--------|------|--------|
-| Lead Time | Alto | Reducido |
-| Cycle Time | Variable | Estable |
-| WIP | Descontrolado | Limitado |
-| Flujo | Inestable | Continuo |
-
----
-
-### 🎯 Impacto
-
-- Flujo más estable  
-- Reducción de tiempos de entrega  
-- Mayor capacidad de respuesta  
-- Mejora en la eficiencia del equipo  
-
-👉 Se pasa de un sistema reactivo a uno gestionado por flujo.
-
-### 🔍 ¿Qué información entrega?
-
-- Evolución del trabajo en curso (WIP)
-- Velocidad de entrega del equipo
-- Estabilidad del flujo
-- Identificación de cuellos de botella
-
----
-
-### ⚠️ Interpretación del gráfico
-
-En el análisis del CFD se pueden identificar patrones clave:
-
-- **Bandas que se expanden**  
-  👉 Indican acumulación de trabajo → posible cuello de botella  
-
-- **Bandas paralelas y estables**  
-  👉 Flujo equilibrado → sistema estable  
-
-- **Bandas irregulares o con variaciones bruscas**  
-  👉 Flujo inestable → problemas en la gestión del trabajo  
-
----
-
-### 🚨 Análisis aplicado al caso
-
-En este caso se observa:
-
-- Acumulación en la etapa de **Testing**  
-  → Indica un cuello de botella en validación  
-
-- Diferencias en el ancho de las bandas  
-  → Reflejan variabilidad en la capacidad del equipo  
-
-- Crecimiento no uniforme de “Done”  
-  → Baja predictibilidad de entrega  
-
----
-
-### 🛠️ Decisiones tomadas a partir del CFD
-
-- Reducción de WIP en etapas previas  
-- Redistribución de carga hacia Testing  
-- Priorización de tareas bloqueadas  
-- Ajuste del flujo para evitar sobrecarga  
-
----
-
-### 📈 Resultado esperado
-
-- Flujo más estable  
-- Reducción del Lead Time  
-- Mayor predictibilidad  
-- Disminución de cuellos de botella  
-
-👉 El CFD permite pasar de intuición a decisiones basadas en datos.
-
----
-
-### 🚀 4. Caso práctico aplicado
-
-📄 `caso_practico_kanban_app_ingles.md`
-
-* Implementación completa del sistema Kanban
-* Problemas reales del flujo
-* Decisiones del equipo
-* Resultados obtenidos
-
----
-
-## 🔍 Ejemplo de situación real
-
-Durante la operación del tablero:
-
-* Testing alcanza su límite WIP
-* Code Review se satura
-* Development continúa iniciando trabajo
-
-👉 Resultado:
-
-* Aumento del Cycle Time
-* Flujo inestable
-
----
-
-## 🛠️ Acciones implementadas
-
-* Reducción del WIP en Development
-* Priorización de tareas bloqueadas
-* Apoyo del equipo en Testing
-* Ajuste del flujo de trabajo
-
----
-
-## 📈 Resultados obtenidos
-
-* Reducción de tiempos de entrega
-* Flujo más estable y predecible
-* Disminución de bloqueos
-* Mejora en la calidad del producto
-
----
-
-## 📊 Impacto en el producto
-
-* Mayor velocidad de entrega de funcionalidades
-* Mejor experiencia de usuario
-* Incremento en uso de la aplicación
-* Mayor satisfacción de usuarios (niños y padres)
-
----
-
-## 💼 Enfoque profesional
-
-Este módulo refleja prácticas utilizadas en entornos reales de desarrollo:
-
-* Gestión de delivery end-to-end
-* Optimización del flujo de trabajo
-* Uso de métricas para toma de decisiones
-* Alineación entre desarrollo y objetivos de negocio
+El foco está en la gestión del sistema de trabajo, la toma de decisiones basada en métricas y la alineación entre operación y resultados de negocio.
 
 ---
 
 ## 🔥 Insight clave
 
-> No se trata de gestionar tareas…
-> sino de gestionar cómo fluye el trabajo.
+> Kanban no consiste en mover tareas por un tablero.
+> Consiste en diseñar, operar y mejorar un sistema de entrega.
 
 ---
 
-## Conclusión
+## ✅ Conclusión
 
-Kanban no solo permite visualizar tareas; permite gestionar el sistema de trabajo, estabilizar el flujo y mejorar la capacidad de entrega de valor.
+Este módulo muestra cómo estructurar y gestionar un sistema Kanban de manera profesional, conectando diseño, operación, métricas y mejora continua.
 
-En este módulo, el enfoque está puesto en cómo transformar la operación del equipo a través de decisiones basadas en flujo, límites WIP y métricas.
+👉 El resultado no es solo un tablero más ordenado, sino un sistema más estable, medible y orientado a la entrega de valor.
