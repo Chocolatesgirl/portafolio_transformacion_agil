@@ -64,6 +64,7 @@ Cada iniciativa asociada a un resultado clave se gestiona dentro del sistema Kan
 
 ## 🧭 Ciclo de ejecución estratégica
 
+Este ciclo representa cómo la estrategia se traduce en ejecución operativa y mejora continua.
 ![Ciclo OKRs](./assets/ciclo_okrs.png)
 
 ---
