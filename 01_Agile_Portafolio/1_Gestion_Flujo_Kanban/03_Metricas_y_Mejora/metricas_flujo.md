@@ -1,206 +1,228 @@
-# 📊 Métricas de Flujo en Kanban — Caso App de Inglés para Niños de 3 a 8 años
+# 📊 Métricas de Flujo — Gestión Basada en Datos
 
 ## 🎯 Objetivo
 
-Medir y optimizar el flujo de trabajo durante el desarrollo de una:
+Definir y utilizar métricas de flujo para:
 
-👉 **App de aprendizaje de inglés para niños de 3 a 8 años**
-
-El foco está en:
-
-* Reducir tiempos de entrega
-* Mejorar la experiencia del usuario
-* Asegurar un flujo estable de desarrollo
-* Alinear el delivery con métricas de producto
+* Evaluar el desempeño del sistema Kanban
+* Identificar cuellos de botella
+* Tomar decisiones basadas en datos
+* Mejorar la predictibilidad de entrega
 
 ---
 
-## 🧱 Flujo de trabajo utilizado
+## 🧩 Contexto del caso
 
-```text id="m5wb3c"
-Backlog → Ready → Development → Code Review → Testing → QA → Release → Done
-```
+Equipo desarrollando una:
 
----
+👉 **Aplicación de aprendizaje de inglés para niños de 3 a 8 años**
 
-## 📊 Métricas aplicadas en el caso real
+### Problema inicial
 
----
-
-### 🔹 1. Lead Time
-
-Tiempo desde que se define una funcionalidad hasta que está disponible para los usuarios.
-
-👉 **Ejemplo real:**
-
-* Feature: Juego de vocabulario con audio
-* Desde backlog hasta producción: **10 días**
-
-📌 Interpretación:
-
-* Impacta directamente en la rapidez con la que los niños reciben nuevas funcionalidades
-* Lead Time alto retrasa mejoras en la experiencia de aprendizaje
-
----
-
-### 🔹 2. Cycle Time
-
-Tiempo desde que el equipo comienza a desarrollar una funcionalidad hasta que se entrega.
-
-👉 **Ejemplo real:**
-
-* Implementación de audio interactivo
-* Desde Development a Release: **4 días**
-
-📌 Interpretación:
-
-* Mide eficiencia del equipo
-* Afecta directamente la velocidad de iteración del producto
-
----
-
-### 🔹 3. Throughput
-
-Cantidad de funcionalidades entregadas por semana.
-
-👉 **Ejemplo real:**
-
-* 8 historias completadas en una semana
-* Incluye:
-
-  * Animaciones interactivas
-  * Feedback visual
-  * Persistencia de progreso
-
-📌 Interpretación:
-
-* Permite estimar cuánto valor puede entregar el equipo
-* A mayor throughput → mayor evolución del producto
-
----
-
-### 🔹 4. Work In Progress (WIP)
-
-Cantidad de tareas en desarrollo simultáneamente.
-
-👉 **Ejemplo real:**
-
-* 7 tareas activas al mismo tiempo
-* Incluyendo:
-
-  * Audio
-  * UI
-  * Backend de progreso
-
-📌 Problema detectado:
-
-* Multitarea excesiva
-* Aumento de errores
-* Retrasos en Testing
-
----
-
-## 🔍 Situación real observada
-
-Durante la simulación del tablero:
-
-### 🚨 Problema
-
-* Testing saturado (2/2)
-* Code Review al límite
-* Development seguía iniciando nuevas tareas
+* Alta variabilidad en tiempos de entrega
+* Acumulación de trabajo en Testing
+* Baja visibilidad del flujo
 
 👉 Resultado:
 
-* Aumento del Cycle Time
-* Historias tardaban más en completarse
-* Flujo inestable
+* Lead Time elevado
+* Cycle Time inestable
+* Baja capacidad de planificación
 
 ---
 
-## 🧠 Diagnóstico basado en métricas
-
-| Métrica    | Observación | Impacto en el producto                       |
-| ---------- | ----------- | -------------------------------------------- |
-| Cycle Time | Aumenta     | Funcionalidades llegan más lento a los niños |
-| WIP        | Alto        | Más errores y retrabajo                      |
-| Throughput | Baja        | Menor evolución de la app                    |
+## 📏 Métricas clave del sistema
 
 ---
 
-## 🛠️ Acciones tomadas
+### ⏱️ 1. Lead Time
 
-* Se redujo el WIP en Development
-* El equipo apoyó Testing
-* Se priorizaron tareas bloqueadas
-* Se dividieron historias grandes en tareas más pequeñas
+Tiempo total desde que una tarea es solicitada hasta que se entrega en producción.
 
----
-
-## 📈 Resultados obtenidos
-
-| Métrica    | Antes       | Después       |
-| ---------- | ----------- | ------------- |
-| Cycle Time | 4-6 días    | ↓ 3 días      |
-| Throughput | 6 historias | ↑ 8 historias |
-| WIP        | 7 tareas    | ↓ 4 tareas    |
+👉 Mide la experiencia del cliente
 
 ---
 
-## 📊 Impacto en la app (MUY importante 🔥)
+### 🔄 2. Cycle Time
 
-Después de optimizar el flujo:
+Tiempo desde que el equipo comienza a trabajar en una tarea hasta que la finaliza.
 
-* Nuevas funcionalidades llegaron más rápido a los usuarios
-* Mejora en la experiencia interactiva de los niños
-* Menor cantidad de errores en producción
-* Incremento en el uso de la app por sesión
+👉 Mide la eficiencia del equipo
 
 ---
 
-## 📈 Métricas de producto asociadas
+### 📦 3. Throughput
 
-Se observó impacto en:
+Cantidad de tareas completadas por unidad de tiempo.
 
-* ⏱️ Tiempo promedio de uso por sesión
-* 🎮 Interacciones por actividad
-* 📚 Progreso de aprendizaje
-* 👨‍👩‍👧 Satisfacción de padres
-
-👉 Esto conecta directamente delivery con valor de negocio.
+👉 Mide capacidad de entrega
 
 ---
 
-## 🔄 Mejora continua
+### 📊 4. Work In Progress (WIP)
 
-* Ajuste dinámico de WIP
-* Automatización de pruebas
-* Reducción del tamaño de historias
-* Monitoreo constante de métricas
+Cantidad de tareas en curso en un momento dado.
+
+👉 Mide carga del sistema
+
+---
+
+## 📊 Análisis del sistema (estado inicial)
+
+### Observaciones
+
+* Lead Time alto y disperso
+* Cycle Time variable
+* WIP elevado en Development y Testing
+* Throughput bajo
+
+---
+
+### 🔍 Diagnóstico
+
+* Sistema sobrecargado
+* Cuello de botella en Testing
+* Exceso de multitarea
+
+---
+
+## 🛠️ Decisiones basadas en métricas
+
+### 1. Reducción de WIP
+
+* Implementación de límites por etapa
+
+---
+
+### 2. Priorización de tareas en progreso
+
+* Enfoque en finalización
+
+---
+
+### 3. Redistribución de capacidad
+
+* Apoyo del equipo en Testing
+
+---
+
+### 4. Gestión de bloqueos
+
+* Identificación y resolución temprana
+
+---
+
+## 📈 Resultado después de ajustes
+
+| Métrica    | Antes    | Después      |
+| ---------- | -------- | ------------ |
+| Lead Time  | Alto     | Reducido     |
+| Cycle Time | Variable | Estable      |
+| WIP        | Alto     | Controlado   |
+| Throughput | Bajo     | Incrementado |
+
+---
+
+## 📉 Análisis de distribución
+
+### Lead Time
+
+<p align="center">
+  <img src="03_Metricas_y_Mejora/lead_time_distribution.png" width="600">
+</p>
+
+---
+
+### 🔍 Interpretación
+
+* Alta dispersión → sistema inestable
+* Valores extremos → bloqueos
+* Distribución concentrada → flujo estable
+
+---
+
+## 📊 Cumulative Flow Diagram (CFD)
+
+<p align="center">
+  <img src="03_Metricas_y_Mejora/cumulative_flow_diagram.png" width="700">
+</p>
+
+---
+
+### 🔍 Qué permite identificar
+
+* Evolución del WIP
+* Velocidad del sistema
+* Cuellos de botella
+* Estabilidad del flujo
+
+---
+
+### 🚨 Hallazgos en el caso
+
+* Acumulación en Testing
+* Bandas irregulares → flujo inestable
+* Crecimiento inconsistente de “Done”
+
+---
+
+## 📉 Evolución del sistema
+
+<p align="center">
+  <img src="03_Metricas_y_Mejora/flujo_before_after.png" width="700">
+</p>
+
+---
+
+### 📊 Comparación
+
+| Métrica   | Antes         | Después     |
+| --------- | ------------- | ----------- |
+| Flujo     | Inestable     | Continuo    |
+| Entrega   | Impredecible  | Predecible  |
+| Capacidad | Desbalanceada | Equilibrada |
+
+---
+
+## 🔗 Conexión con el sistema Kanban
+
+Las métricas permiten validar:
+
+* 🧱 `diseno_tablero_kanban.md` → estructura del flujo
+* 🔄 `simulacion_flujo_trabajo_jira.md` → operación real
+* 🛠️ `politicas_wip.md` → control del sistema
+
+👉 Sin métricas, no hay mejora continua.
 
 ---
 
 ## 💼 Enfoque profesional
 
-Las métricas de flujo permiten:
+Las métricas no son solo indicadores.
 
-👉 Tomar decisiones basadas en datos
-👉 Optimizar el rendimiento del equipo
-👉 Alinear desarrollo con objetivos del producto
+Son herramientas para:
+
+* Tomar decisiones
+* Ajustar el sistema
+* Mejorar resultados
+
+👉 El foco está en el sistema, no en las personas.
 
 ---
 
 ## 🔥 Insight clave
 
-> Cuando mejoras el flujo…
-> mejoras la experiencia del usuario.
+> No puedes mejorar lo que no puedes medir…
+> pero medir sin interpretar tampoco genera valor.
 
 ---
 
-## 🎯 Conclusión
+## ✅ Conclusión
 
-El uso de métricas en este caso permitió transformar el equipo en un sistema:
+El uso de métricas permite:
 
-👉 más rápido, más estable y orientado a entregar valor real
+* Entender el comportamiento del sistema
+* Detectar problemas reales
+* Implementar mejoras efectivas
 
-Asegurando una mejor experiencia de aprendizaje para los niños.
+👉 Kanban se convierte en un sistema de mejora continua basado en datos.
