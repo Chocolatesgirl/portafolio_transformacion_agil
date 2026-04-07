@@ -96,9 +96,9 @@ Se implementa Kanban como sistema de gestión de flujo, integrando:
 
 Este caso se apoya en los componentes definidos en el módulo:
 
-* 🧱 `../01_Diseño_Flujo/` → estructura del sistema
-* 🔄 `../02_Operacion_Flujo/` → comportamiento del flujo
-* 📊 `../03_Metricas_y_Mejora/` → análisis y mejora
+* 🧱 `../01_diseño_flujo/` → estructura del sistema
+* 🔄 `../02_operacion_flujo/` → comportamiento del flujo
+* 📊 `../03_metricas_y_mejora/` → análisis y mejora
 
 👉 El valor está en la integración entre diseño, operación y métricas.
 
