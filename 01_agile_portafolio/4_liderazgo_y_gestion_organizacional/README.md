@@ -139,13 +139,13 @@ La aplicación de este enfoque permite:
 
 ---
 
-## 🔗 Relación con el portafolio
+## 🔗 Conexión
 
-Este módulo se integra con:
+Este módulo define cómo el liderazgo permite escalar el desempeño del equipo hacia resultados organizacionales, integrando toma de decisiones, desarrollo de equipos y ejecución alineada al negocio.
 
-- 📊 Gestión de Flujo (Kanban) → optimización del sistema de trabajo  
-- 🎯 Ejecución Estratégica (OKRs) → alineación con objetivos  
-- ⚙️ Mejora Continua → evolución del desempeño del equipo  
+A través de este enfoque, se establecen las condiciones para que los equipos operen con autonomía, eficiencia y foco en resultados.
+
+👉 El siguiente paso es evidenciar este enfoque en contextos reales, lo que se presenta en el módulo de **Casos Reales de Transformación Ágil**.  
 
 ---
 
@@ -161,4 +161,4 @@ Este módulo refleja experiencia en:
 
 ---
 
-👉 El liderazgo efectivo no se basa en la aplicación de prácticas, sino en la capacidad de tomar decisiones que mejoren resultados de manera sostenible.
+👉 El liderazgo efectivo se refleja en decisiones que mejoran resultados de manera sostenible y escalable.
