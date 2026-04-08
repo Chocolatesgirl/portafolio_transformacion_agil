@@ -1,183 +1,162 @@
- # 🚀 Agile Portafolio
+# 🚀 Portafolio de Transformación Ágil y Delivery Tecnológico
 
-Portafolio profesional que demuestra cómo aplico metodologías ágiles en contextos reales para mejorar el desempeño de equipos, optimizar el flujo de trabajo y acompañar transformaciones organizacionales.
-
-Este repositorio reúne prácticas, métricas y casos aplicados que reflejan experiencia en liderazgo de equipos, gestión del cambio y toma de decisiones basada en evidencia.
-
-![Agile](https://img.shields.io/badge/Agile-Scrum%20%7C%20Kanban-blue)
-![Strategy](https://img.shields.io/badge/Strategy-OKRs-purple)
-![Metrics](https://img.shields.io/badge/Metrics-Data%20Driven-green)
-![Leadership](https://img.shields.io/badge/Leadership-Management%203.0-orange)
+## 👩‍💻 Verónica Maldonado Céspedes  
+**Delivery Manager | Senior Project Manager | Agile & Cloud Transformation**
 
 ---
 
-## ⚡ Resumen Ejecutivo
+## 🎯 Propósito
 
-- +10 años liderando iniciativas tecnológicas  
-- Experiencia en banca, telecomunicaciones y consultoría  
-- Especialización en Agile, métricas y transformación digital  
-- Enfoque en entrega de valor y mejora continua
+Este repositorio presenta un portafolio profesional que demuestra cómo lidero iniciativas de transformación ágil, optimización de flujo de trabajo y ejecución tecnológica en entornos complejos.
 
----
+El enfoque está orientado a evidenciar:
 
-## 🧠 Enfoque Profesional
-
-Este portafolio está orientado a la aplicación práctica de metodologías ágiles, con foco en:
-
-- Mejora continua de equipos mediante retrospectivas estructuradas  
-- Optimización del flujo de trabajo con métricas ágiles  
-- Implementación de Scrum, Kanban y SAFe en contextos reales  
-- Gestión del cambio organizacional y cultural  
-- Toma de decisiones basada en métricas y resultados  
+- Liderazgo de equipos TI
+- Gestión de delivery end-to-end
+- Toma de decisiones basada en métricas
+- Alineación entre negocio y tecnología
 
 ---
 
-## 🔗 Enfoque Sistémico de Entrega
+## 🧠 Enfoque
 
-Este portafolio no presenta prácticas aisladas, sino un sistema integrado de gestión de entrega:
+El portafolio está estructurado como un **sistema de delivery**, donde cada componente cumple un rol específico:
 
-- **OKRs** → Definen la dirección estratégica  
-- **Kanban** → Gestiona el flujo de trabajo  
-- **Métricas** → Permiten evaluar desempeño y tomar decisiones  
-- **Management 3.0** → Potencia el liderazgo y la autonomía del equipo  
-
-👉 Este enfoque permite conectar estrategia, ejecución y resultados de negocio.
-
----
-
-## 📂 Qué encontrarás aquí
-
-## 📂 Módulos del Portafolio
-
-### 📊 Gestión de Flujo con Kanban
-Optimización del flujo de trabajo mediante control de WIP, métricas y mejora continua.
+- Gestión de flujo → eficiencia operativa  
+- Alineación estratégica → foco en valor  
+- Mejora continua → optimización del sistema  
+- Liderazgo → gestión de equipos y decisiones  
+- Métricas → validación con datos  
+- Casos reales → evidencia de impacto  
 
 ---
 
-### 🎯 Ejecución Estratégica con OKRs
-Definición y seguimiento de objetivos alineados a resultados de negocio.
+## 🧩 Estructura del portafolio
 
 ---
 
-### 🔄 Retrospectivas
-Mejora continua basada en aprendizaje estructurado del equipo.
+### 📊 1. Gestión de Flujo con Kanban
+
+📂 `1_Gestion_Flujo_Kanban/`
+
+Aplicación de Kanban como sistema de gestión de flujo para optimizar la entrega.
+
+**Incluye:**
+- Diseño de flujo end-to-end  
+- Control de WIP  
+- Métricas de flujo (Lead Time, Cycle Time, Throughput)  
+- Identificación de cuellos de botella  
 
 ---
 
-### 👥 Management 3.0
-Prácticas de liderazgo para motivación, autonomía y desarrollo de equipos.
+### 🎯 2. Ejecución Estratégica con OKRs
+
+📂 `2_Ejecucion_Estrategica_OKRs/`
+
+Alineación de equipos con objetivos de negocio mediante OKRs.
+
+**Incluye:**
+- Definición de objetivos y resultados clave  
+- Priorización basada en valor  
+- Seguimiento de ejecución  
 
 ---
 
-### 🚀 Transformaciones Ágiles
-Implementación de metodologías en contextos organizacionales complejos.  
+### ⚙️ 3. Optimización del Desempeño de Equipos
+
+📂 `3_optimizacion_desempeno_equipos/`
+
+Sistema de mejora continua enfocado en el desempeño del equipo.
+
+**Incluye:**
+- Identificación de fricciones en el flujo  
+- Toma de decisiones basada en evidencia  
+- Uso de métricas para validación  
 
 ---
 
-## 🧩 Casos Destacados
+### 🧠 4. Liderazgo y Gestión Organizacional
 
-- **Implementación de Scrum + SAFe** en contextos organizacionales complejos  
-- **Optimización de flujo con Kanban** utilizando métricas como Lead Time, Cycle Time, Throughput y WIP  
-- **Aplicación de retrospectivas** para detectar problemas sistémicos y definir mejoras concretas  
-- **Uso de Management 3.0** para fortalecer motivación, autonomía y colaboración del equipo  
+📂 `4_liderazgo_y_gestion_organizacional/`
 
----
+Gestión de equipos y ejecución organizacional en entornos complejos.
 
-## 🔄 Retrospectivas Aplicadas
-
-Aplicación de dinámicas de retrospectiva para identificar fricciones del equipo, detectar patrones sistémicos y traducir hallazgos en acciones concretas de mejora.
-
-- **Sailboat (Barco)** → Identificación de riesgos, bloqueos y objetivos  
-- **Start / Stop / Continue** → Ajuste de prácticas y hábitos del equipo  
-- **4L (Liked, Learned, Lacked, Longed For)** → Aprendizaje y mejora continua  
-
-Estas técnicas permiten no solo mejorar el desempeño, sino también fortalecer la comunicación y el compromiso del equipo.
+**Incluye:**
+- Toma de decisiones de liderazgo  
+- Desarrollo de equipos  
+- Gestión del cambio  
+- Escalamiento organizacional  
+- Métricas de desempeño  
 
 ---
 
-## 🚀 Caso Destacado
+### 🚀 5. Casos Reales
 
-### Implementación de Scrum y SAFe en contextos organizacionales complejos
+📂 `casos_reales/`
 
-**Desafío:**  
-Organizaciones con baja adopción ágil, equipos desalineados y resistencia al cambio.
+Aplicación práctica de liderazgo y transformación en contextos reales.
 
-**Intervención:**  
-- Implementación progresiva de Scrum en equipos  
-- Escalamiento con enfoque SAFe  
-- Acompañamiento en gestión del cambio cultural  
-- Coordinación entre múltiples áreas y stakeholders  
-
-**Resultados / Impacto:**  
-- Mayor alineación entre equipos  
-- Mejora en visibilidad del trabajo  
-- Adopción gradual y sostenible de prácticas ágiles  
+**Casos destacados:**
+- 📱 Desarrollo App AFP Provida  
+- 🔧 Migración de Jira a Azure DevOps  
+- 🏢 Implementación de SAFe  
+- 🌍 Expansión de plataforma logística  
 
 ---
 
-## 📊 Métricas de Gestión Utilizadas
+## 📊 Enfoque basado en métricas
+
+El portafolio se sustenta en el uso de datos para la toma de decisiones:
 
 - Lead Time  
 - Cycle Time  
 - Throughput  
-- Work In Progress (WIP)  
-- Velocity  
-- Burndown Chart  
-- Control Chart  
-
-Estas métricas permiten evaluar desempeño, detectar cuellos de botella y mejorar la eficiencia del flujo de trabajo.
+- Velocidad de equipo  
+- WIP  
+- Engagement y salud del equipo  
 
 ---
 
-## 📈 Impacto generado
+## 🚀 Impacto generado
 
-- Reducción de Lead Time en equipos de desarrollo  
+A través de este enfoque se logra:
+
 - Mejora en la predictibilidad de entrega  
-- Optimización del flujo de trabajo mediante control de WIP  
-- Aumento en la eficiencia operativa de equipos
+- Reducción de cuellos de botella  
+- Mayor alineación entre negocio y tecnología  
+- Incremento en la eficiencia operativa  
+- Equipos más autónomos y efectivos  
 
 ---
 
-## 🛠️ Herramientas y Prácticas
+## 💡 Insight clave
 
-- Jira / Azure DevOps  
-- Tableros Kanban  
-- OKRs  
-- Retrospectivas estructuradas  
-- Management 3.0  
-- Métricas de flujo y desempeño  
+La transformación ágil no depende de frameworks o herramientas, sino de:
 
----
-
-## 💼 Capacidades Demostradas
-
-- Facilitación de dinámicas de mejora continua  
-- Uso de métricas para la toma de decisiones  
-- Optimización de flujo y desempeño de equipos  
-- Liderazgo en entornos complejos y de cambio  
-- Resolución de problemas de coordinación y comunicación  
+- Liderazgo efectivo  
+- Toma de decisiones basada en datos  
+- Alineación estratégica  
+- Mejora continua del sistema de trabajo  
 
 ---
 
-## 🎯 Enfoque
+## 🧠 Posicionamiento profesional
 
-Las metodologías ágiles no se implementan de forma estándar, se adaptan al contexto organizacional.
+Este portafolio refleja experiencia en:
 
-Este portafolio refleja una aproximación práctica, donde cada herramienta y técnica se utiliza en función del problema a resolver y del valor que se busca generar.
-
----
-
-## 🚀 Valor del Portafolio
-
-Este repositorio no es teórico.
-
-Refleja experiencia real aplicando prácticas ágiles para mejorar equipos, procesos y resultados de negocio.
+- Liderazgo de equipos TI en entornos complejos  
+- Gestión de proyectos y delivery tecnológico  
+- Implementación de modelos ágiles a escala  
+- Transformación organizacional  
+- Integración de prácticas Cloud y DevOps  
 
 ---
 
-## 🔗 Conexión con Perfil Profesional
+## 🔗 Conecta conmigo
 
-Este repositorio forma parte de mi portafolio profesional en GitHub, donde integro liderazgo, metodologías ágiles y transformación tecnológica.
+- LinkedIn: *(agrega tu link aquí)*  
+- GitHub: https://github.com/Chocolatesgirl  
 
-🔗 Ver perfil completo:  
-https://github.com/Chocolatesgirl/Perfil_Profesional
+---
+
+👉 Este portafolio demuestra cómo la combinación de liderazgo, métricas y ejecución permite generar resultados sostenibles en entornos tecnológicos.
