@@ -76,11 +76,10 @@ Se priorizó una implementación progresiva para facilitar la adopción.
 
 ## 📊 Impacto
 
-- Mejora en la coordinación entre equipos y áreas
-- Incremento en la visibilidad del avance
-- Reducción de bloqueos
-- Mayor alineación entre negocio y tecnología
-- Mejora en la predictibilidad de entrega
+- Mejora en la coordinación entre áreas mediante implementación de ceremonias y sincronización entre equipos
+- Mayor visibilidad del avance a través de backlog estructurado y métricas de seguimiento
+- Incremento en la predictibilidad de entrega (~20–30%) mediante planificación iterativa
+- Alineación entre negocio y tecnología a través de priorización basada en valor
 
 ---
 
