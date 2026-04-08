@@ -54,6 +54,12 @@ Se decidió migrar hacia **Azure DevOps** como plataforma unificada para:
 - Reducción de tiempos de entrega (~15–25%) gracias a integración del ciclo de desarrollo
 - Mayor autonomía del equipo al eliminar dependencias entre herramientas
 
+📊 Impacto en negocio:
+
+- Reducción de tiempos de entrega (~15–25%)
+- Mejora en eficiencia operativa del equipo
+- Mayor velocidad en despliegues
+
 ---
 
 ## 🚀 Resultado
