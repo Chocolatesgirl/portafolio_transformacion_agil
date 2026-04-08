@@ -53,10 +53,10 @@ Se definió una estrategia de **estandarización y modernización de la platafor
 
 ## 📊 Impacto
 
-- Simplificación de la plataforma
-- Reducción de costos de mantenimiento
-- Mejora en la experiencia de usuario
-- Aceleración del proceso de expansión
+- Reducción significativa de versiones del sistema (~20 → 4), simplificando operación
+- Mejora en experiencia de usuario mediante rediseño funcional
+- Disminución de costos operativos asociados a mantenimiento
+- Aceleración del proceso de expansión internacional
 
 ---
 
