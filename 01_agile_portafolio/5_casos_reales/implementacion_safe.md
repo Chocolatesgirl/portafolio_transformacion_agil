@@ -58,6 +58,12 @@ Se priorizó una implementación progresiva para reducir resistencia organizacio
 - Reducción de dependencias críticas entre equipos
 - Incremento en velocidad de entrega mediante coordinación estructurada (~15–20%)
 
+📊 Impacto en negocio:
+
+- Mejora en coordinación organizacional
+- Reducción de retrasos en entregas
+- Mayor alineación entre áreas de negocio y tecnología
+
 ---
 
 ## 🚀 Resultado
