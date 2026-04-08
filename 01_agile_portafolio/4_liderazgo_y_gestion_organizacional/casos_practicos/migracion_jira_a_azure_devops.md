@@ -1,106 +1,62 @@
-# 🚀 Caso Práctico: Migración de Jira a Azure DevOps
+# 🔄 Migración de Jira a Azure DevOps
 
-## 📌 Contexto
+## 🎯 Contexto
 
-Organización con equipos TI trabajando bajo un enfoque tradicional, utilizando Jira como herramienta principal de gestión. Existían:
+Organización con herramientas fragmentadas:
 
-- Baja integración entre desarrollo, repositorios y testing
-- Procesos manuales y poco eficientes
-- Escasa visibilidad del flujo de trabajo
-- Equipos con baja autonomía
-
----
-
-## 🎯 Objetivo
-
-Implementar una solución integrada que permitiera:
-
-- Mejorar la gestión del flujo de trabajo
-- Aumentar la autonomía de los equipos
-- Integrar desarrollo, repositorios y testing
-- Facilitar la transición hacia prácticas ágiles
+- Jira para gestión de trabajo
+- Repositorios separados
+- Falta de integración entre desarrollo y operación
 
 ---
 
-## ⚙️ Estrategia aplicada
+## ⚠️ Problema
 
-### 1. Alineación (Management 3.0 – Alinear restricciones)
-
-- Definición de objetivos claros con stakeholders
-- Establecimiento de una línea base de procesos
-- Identificación de necesidades reales del equipo
-
----
-
-### 2. Implementación gradual
-
-- Migración progresiva de proyectos desde Jira a Azure DevOps
-- Capacitación continua al equipo
-- Adaptación de tableros según contexto real del equipo
+- Baja visibilidad del flujo completo
+- Dificultad para trazabilidad end-to-end
+- Desconexión entre equipos técnicos
+- Ineficiencia en la gestión
 
 ---
 
-### 3. Empoderamiento del equipo
+## 🧠 Decisión de liderazgo
 
-- Delegación de decisiones sobre:
-  - Estructura de tableros
-  - Definición de flujos
-  - Configuración de pipelines
+Se decidió migrar hacia **Azure DevOps** como plataforma unificada para:
 
-- Espacios colaborativos para definir mejores prácticas
-
----
-
-### 4. Cultura de mejora continua
-
-- Implementación de retrospectivas periódicas
-- Ajuste iterativo de procesos
-- Incorporación de métricas de flujo y desempeño
+- Gestión de backlog
+- Repositorios
+- Pipelines CI/CD
+- Seguimiento de trabajo
 
 ---
 
-## 🧪 Prácticas complementarias
+## 🔧 Estrategias aplicadas
 
-- Moving Motivators → alineación de motivación individual
-- Delegation Poker → definición de niveles de autonomía
-- Kudo Cards → refuerzo de cultura positiva
-
----
-
-## 📊 Resultados obtenidos
-
-- ✔ Reducción de tiempos de entrega (Lead Time)
-- ✔ Mayor visibilidad del flujo de trabajo
-- ✔ Incremento en la autonomía del equipo
-- ✔ Mejor integración entre desarrollo y operaciones
-- ✔ Adopción progresiva de prácticas ágiles
+- Migración progresiva de proyectos
+- Capacitación a equipos
+- Definición de estructura de trabajo
+- Integración de repositorios y pipelines
 
 ---
 
-## 📈 Métricas implementadas
+## 📊 Métricas utilizadas
 
-- Lead Time / Cycle Time
-- Throughput
-- Tasa de defectos
-- Participación en retrospectivas
-- Indicadores de salud del equipo
-
----
-
-## 💡 Aprendizajes clave
-
-- La transformación no es tecnológica, es cultural
-- La adopción debe ser progresiva, no impuesta
-- El liderazgo efectivo habilita, no controla
+- Lead Time
+- Cycle Time
+- Tiempo de despliegue
+- Frecuencia de entrega
 
 ---
 
-## 🧠 Enfoque estratégico
+## 📊 Impacto
 
-Este proceso permitió evolucionar desde un modelo tradicional hacia un sistema adaptativo, donde:
-
-- Los equipos operan con mayor autonomía
-- Las decisiones se distribuyen
-- La mejora continua es parte del sistema
+- Mejora en la trazabilidad
+- Reducción de tiempos de entrega
+- Mayor integración entre equipos
+- Incremento en eficiencia operativa
 
 ---
+
+## 🚀 Resultado
+
+Se consolidó un ecosistema integrado que permitió mejorar la gestión del ciclo de vida del desarrollo y aumentar la velocidad de entrega.
